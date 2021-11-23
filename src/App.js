@@ -25,7 +25,7 @@ function App() {
         setBalance(parseFloat(accBalance).toFixed(2));
       });
     } else {
-     alert("Please install meta mask");
+     alert("Please install metamask");
     }
   }
 
@@ -36,7 +36,6 @@ function App() {
     providerOptions, // required
   });
 
-  console.log(account, "Account");
 
   return (
     <div className="App">
